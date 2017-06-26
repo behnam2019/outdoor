@@ -14,11 +14,6 @@ var app = {
 
 
 
-L.mapbox.accessToken = 'pk.eyJ1IjoiYmVobmFtMjAxOSIsImEiOiJjajBnaTBwa28wMDJlMzNuNTg1Y3NhdTU4In0.IvILYU3NM9Zr1DapXE0_qg';
-    var map = L.mapbox.map('map', 'mapbox.streets');
-    L.control.locate().addTo(map);
-
-
 
 
 
