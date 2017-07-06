@@ -19,26 +19,18 @@
 <![endif]-->
 <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
 
-  <p style="text-align: center;"><font size="4"><a href="http://ems.ut.ac.ir/fa">کلیک</a>1</font></p><p style="text-align: center;"><font size="4"><a href="https://auth.ut.ac.ir:8443/cas/login?service=https://ems1.ut.ac.ir/forms/casauthenticateuser/casmu.aspx?ut=1%26CSURL=https://auth.ut.ac.ir:8443/cas/logout">کلیک ۲</a></font></p>
-<input type="button" onclick="openURL1()" value="ems1">
-
-  
   
   
   
   
  <!-- <div id='map'></div>-->
 <script>
-  
-  function openURL1()
-  {
-    window.open("ems.mht");
-  }
+
   
   
-//L.mapbox.accessToken = 'pk.eyJ1IjoiYmVobmFtMjAxOSIsImEiOiJjajBnaTBwa28wMDJlMzNuNTg1Y3NhdTU4In0.IvILYU3NM9Zr1DapXE0_qg';
-  //  var map = L.mapbox.map('map', 'mapbox.streets').setView([35.724878, 51.388213], 11);
-    //L.control.locate().addTo(map);
+L.mapbox.accessToken = 'pk.eyJ1IjoiYmVobmFtMjAxOSIsImEiOiJjajBnaTBwa28wMDJlMzNuNTg1Y3NhdTU4In0.IvILYU3NM9Zr1DapXE0_qg';
+    var map = L.mapbox.map('map', 'mapbox.streets').setView([35.724878, 51.388213], 11);
+    L.control.locate().addTo(map);
     
 
 
