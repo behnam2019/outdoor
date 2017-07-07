@@ -21,20 +21,16 @@
 
   
   
-    <button onclick="ems()" class="button"> ems </button>
 
   
- <!-- <div id='map'></div>-->
+ <div id='map'></div>
 <script>
-function ems()
-  {
-window.open("http://ems.ut.ac.ir/fa");  
-  };
+
   
   
-//L.mapbox.accessToken = 'pk.eyJ1IjoiYmVobmFtMjAxOSIsImEiOiJjajBnaTBwa28wMDJlMzNuNTg1Y3NhdTU4In0.IvILYU3NM9Zr1DapXE0_qg';
-  //  var map = L.mapbox.map('map', 'mapbox.streets').setView([35.724878, 51.388213], 11);
-    //L.control.locate().addTo(map);
+L.mapbox.accessToken = 'pk.eyJ1IjoiYmVobmFtMjAxOSIsImEiOiJjajBnaTBwa28wMDJlMzNuNTg1Y3NhdTU4In0.IvILYU3NM9Zr1DapXE0_qg';
+   var map = L.mapbox.map('map', 'mapbox.streets').setView([35.724878, 51.388213], 11);
+   L.control.locate().addTo(map);
     
 
 
